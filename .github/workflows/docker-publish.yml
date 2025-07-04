@@ -1,6 +1,8 @@
 name: Docker publish
 
 on:
+  pull-request:
+    branches: "*"
   push:
     branches:
       - 'master'
